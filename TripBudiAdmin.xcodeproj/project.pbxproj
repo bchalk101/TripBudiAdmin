@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0435DAE1CBC9B0400BBE943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0435DAD1CBC9B0400BBE943 /* main.m */; };
+		A0435DB11CBC9B0400BBE943 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0435DB01CBC9B0400BBE943 /* AppDelegate.m */; };
+		A0435DB41CBC9B0400BBE943 /* TripBudiAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0435DB21CBC9B0400BBE943 /* TripBudiAdmin.xcdatamodeld */; };
+		A0435DB71CBC9B0400BBE943 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0435DB61CBC9B0400BBE943 /* MasterViewController.m */; };
+		A0435DBA1CBC9B0400BBE943 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0435DB91CBC9B0400BBE943 /* DetailViewController.m */; };
+		A0435DBD1CBC9B0400BBE943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0435DBB1CBC9B0400BBE943 /* Main.storyboard */; };
+		A0435DBF1CBC9B0400BBE943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0435DBE1CBC9B0400BBE943 /* Assets.xcassets */; };
+		A0435DC21CBC9B0400BBE943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0435DC01CBC9B0400BBE943 /* LaunchScreen.storyboard */; };
+		A0435DCD1CBC9B0400BBE943 /* TripBudiAdminTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0435DCC1CBC9B0400BBE943 /* TripBudiAdminTests.m */; };
+		A0435DD81CBC9B0400BBE943 /* TripBudiAdminUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0435DD71CBC9B0400BBE943 /* TripBudiAdminUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0435DC91CBC9B0400BBE943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0435DA11CBC9B0400BBE943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0435DA81CBC9B0400BBE943;
+			remoteInfo = TripBudiAdmin;
+		};
+		A0435DD41CBC9B0400BBE943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0435DA11CBC9B0400BBE943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0435DA81CBC9B0400BBE943;
+			remoteInfo = TripBudiAdmin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0435DA91CBC9B0400BBE943 /* TripBudiAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripBudiAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0435DAD1CBC9B0400BBE943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0435DAF1CBC9B0400BBE943 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0435DB01CBC9B0400BBE943 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0435DB31CBC9B0400BBE943 /* TripBudiAdmin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TripBudiAdmin.xcdatamodel; sourceTree = "<group>"; };
+		A0435DB51CBC9B0400BBE943 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A0435DB61CBC9B0400BBE943 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A0435DB81CBC9B0400BBE943 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A0435DB91CBC9B0400BBE943 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A0435DBC1CBC9B0400BBE943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0435DBE1CBC9B0400BBE943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0435DC11CBC9B0400BBE943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0435DC31CBC9B0400BBE943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0435DC81CBC9B0400BBE943 /* TripBudiAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripBudiAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0435DCC1CBC9B0400BBE943 /* TripBudiAdminTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripBudiAdminTests.m; sourceTree = "<group>"; };
+		A0435DCE1CBC9B0400BBE943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0435DD31CBC9B0400BBE943 /* TripBudiAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripBudiAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0435DD71CBC9B0400BBE943 /* TripBudiAdminUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripBudiAdminUITests.m; sourceTree = "<group>"; };
+		A0435DD91CBC9B0400BBE943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0435DA61CBC9B0400BBE943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0435DC51CBC9B0400BBE943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0435DD01CBC9B0400BBE943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0435DA01CBC9B0400BBE943 = {
+			isa = PBXGroup;
+			children = (
+				A0435DAB1CBC9B0400BBE943 /* TripBudiAdmin */,
+				A0435DCB1CBC9B0400BBE943 /* TripBudiAdminTests */,
+				A0435DD61CBC9B0400BBE943 /* TripBudiAdminUITests */,
+				A0435DAA1CBC9B0400BBE943 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0435DAA1CBC9B0400BBE943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0435DA91CBC9B0400BBE943 /* TripBudiAdmin.app */,
+				A0435DC81CBC9B0400BBE943 /* TripBudiAdminTests.xctest */,
+				A0435DD31CBC9B0400BBE943 /* TripBudiAdminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0435DAB1CBC9B0400BBE943 /* TripBudiAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				A0435DAF1CBC9B0400BBE943 /* AppDelegate.h */,
+				A0435DB01CBC9B0400BBE943 /* AppDelegate.m */,
+				A0435DB51CBC9B0400BBE943 /* MasterViewController.h */,
+				A0435DB61CBC9B0400BBE943 /* MasterViewController.m */,
+				A0435DB81CBC9B0400BBE943 /* DetailViewController.h */,
+				A0435DB91CBC9B0400BBE943 /* DetailViewController.m */,
+				A0435DBB1CBC9B0400BBE943 /* Main.storyboard */,
+				A0435DBE1CBC9B0400BBE943 /* Assets.xcassets */,
+				A0435DC01CBC9B0400BBE943 /* LaunchScreen.storyboard */,
+				A0435DC31CBC9B0400BBE943 /* Info.plist */,
+				A0435DB21CBC9B0400BBE943 /* TripBudiAdmin.xcdatamodeld */,
+				A0435DAC1CBC9B0400BBE943 /* Supporting Files */,
+			);
+			path = TripBudiAdmin;
+			sourceTree = "<group>";
+		};
+		A0435DAC1CBC9B0400BBE943 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0435DAD1CBC9B0400BBE943 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0435DCB1CBC9B0400BBE943 /* TripBudiAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0435DCC1CBC9B0400BBE943 /* TripBudiAdminTests.m */,
+				A0435DCE1CBC9B0400BBE943 /* Info.plist */,
+			);
+			path = TripBudiAdminTests;
+			sourceTree = "<group>";
+		};
+		A0435DD61CBC9B0400BBE943 /* TripBudiAdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0435DD71CBC9B0400BBE943 /* TripBudiAdminUITests.m */,
+				A0435DD91CBC9B0400BBE943 /* Info.plist */,
+			);
+			path = TripBudiAdminUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0435DA81CBC9B0400BBE943 /* TripBudiAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0435DDC1CBC9B0400BBE943 /* Build configuration list for PBXNativeTarget "TripBudiAdmin" */;
+			buildPhases = (
+				A0435DA51CBC9B0400BBE943 /* Sources */,
+				A0435DA61CBC9B0400BBE943 /* Frameworks */,
+				A0435DA71CBC9B0400BBE943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripBudiAdmin;
+			productName = TripBudiAdmin;
+			productReference = A0435DA91CBC9B0400BBE943 /* TripBudiAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0435DC71CBC9B0400BBE943 /* TripBudiAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0435DDF1CBC9B0400BBE943 /* Build configuration list for PBXNativeTarget "TripBudiAdminTests" */;
+			buildPhases = (
+				A0435DC41CBC9B0400BBE943 /* Sources */,
+				A0435DC51CBC9B0400BBE943 /* Frameworks */,
+				A0435DC61CBC9B0400BBE943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0435DCA1CBC9B0400BBE943 /* PBXTargetDependency */,
+			);
+			name = TripBudiAdminTests;
+			productName = TripBudiAdminTests;
+			productReference = A0435DC81CBC9B0400BBE943 /* TripBudiAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0435DD21CBC9B0400BBE943 /* TripBudiAdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0435DE21CBC9B0400BBE943 /* Build configuration list for PBXNativeTarget "TripBudiAdminUITests" */;
+			buildPhases = (
+				A0435DCF1CBC9B0400BBE943 /* Sources */,
+				A0435DD01CBC9B0400BBE943 /* Frameworks */,
+				A0435DD11CBC9B0400BBE943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0435DD51CBC9B0400BBE943 /* PBXTargetDependency */,
+			);
+			name = TripBudiAdminUITests;
+			productName = TripBudiAdminUITests;
+			productReference = A0435DD31CBC9B0400BBE943 /* TripBudiAdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0435DA11CBC9B0400BBE943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bchalk;
+				TargetAttributes = {
+					A0435DA81CBC9B0400BBE943 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A0435DC71CBC9B0400BBE943 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A0435DA81CBC9B0400BBE943;
+					};
+					A0435DD21CBC9B0400BBE943 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A0435DA81CBC9B0400BBE943;
+					};
+				};
+			};
+			buildConfigurationList = A0435DA41CBC9B0400BBE943 /* Build configuration list for PBXProject "TripBudiAdmin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0435DA01CBC9B0400BBE943;
+			productRefGroup = A0435DAA1CBC9B0400BBE943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0435DA81CBC9B0400BBE943 /* TripBudiAdmin */,
+				A0435DC71CBC9B0400BBE943 /* TripBudiAdminTests */,
+				A0435DD21CBC9B0400BBE943 /* TripBudiAdminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0435DA71CBC9B0400BBE943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0435DC21CBC9B0400BBE943 /* LaunchScreen.storyboard in Resources */,
+				A0435DBF1CBC9B0400BBE943 /* Assets.xcassets in Resources */,
+				A0435DBD1CBC9B0400BBE943 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0435DC61CBC9B0400BBE943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0435DD11CBC9B0400BBE943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0435DA51CBC9B0400BBE943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0435DBA1CBC9B0400BBE943 /* DetailViewController.m in Sources */,
+				A0435DB71CBC9B0400BBE943 /* MasterViewController.m in Sources */,
+				A0435DB41CBC9B0400BBE943 /* TripBudiAdmin.xcdatamodeld in Sources */,
+				A0435DB11CBC9B0400BBE943 /* AppDelegate.m in Sources */,
+				A0435DAE1CBC9B0400BBE943 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0435DC41CBC9B0400BBE943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0435DCD1CBC9B0400BBE943 /* TripBudiAdminTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0435DCF1CBC9B0400BBE943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0435DD81CBC9B0400BBE943 /* TripBudiAdminUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0435DCA1CBC9B0400BBE943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0435DA81CBC9B0400BBE943 /* TripBudiAdmin */;
+			targetProxy = A0435DC91CBC9B0400BBE943 /* PBXContainerItemProxy */;
+		};
+		A0435DD51CBC9B0400BBE943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0435DA81CBC9B0400BBE943 /* TripBudiAdmin */;
+			targetProxy = A0435DD41CBC9B0400BBE943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0435DBB1CBC9B0400BBE943 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0435DBC1CBC9B0400BBE943 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0435DC01CBC9B0400BBE943 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0435DC11CBC9B0400BBE943 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0435DDA1CBC9B0400BBE943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0435DDB1CBC9B0400BBE943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0435DDD1CBC9B0400BBE943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TripBudiAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bchalk.TripBudiAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0435DDE1CBC9B0400BBE943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TripBudiAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bchalk.TripBudiAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0435DE01CBC9B0400BBE943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TripBudiAdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bchalk.TripBudiAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripBudiAdmin.app/TripBudiAdmin";
+			};
+			name = Debug;
+		};
+		A0435DE11CBC9B0400BBE943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TripBudiAdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bchalk.TripBudiAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripBudiAdmin.app/TripBudiAdmin";
+			};
+			name = Release;
+		};
+		A0435DE31CBC9B0400BBE943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TripBudiAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bchalk.TripBudiAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TripBudiAdmin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A0435DE41CBC9B0400BBE943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TripBudiAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bchalk.TripBudiAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TripBudiAdmin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0435DA41CBC9B0400BBE943 /* Build configuration list for PBXProject "TripBudiAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0435DDA1CBC9B0400BBE943 /* Debug */,
+				A0435DDB1CBC9B0400BBE943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0435DDC1CBC9B0400BBE943 /* Build configuration list for PBXNativeTarget "TripBudiAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0435DDD1CBC9B0400BBE943 /* Debug */,
+				A0435DDE1CBC9B0400BBE943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0435DDF1CBC9B0400BBE943 /* Build configuration list for PBXNativeTarget "TripBudiAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0435DE01CBC9B0400BBE943 /* Debug */,
+				A0435DE11CBC9B0400BBE943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0435DE21CBC9B0400BBE943 /* Build configuration list for PBXNativeTarget "TripBudiAdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0435DE31CBC9B0400BBE943 /* Debug */,
+				A0435DE41CBC9B0400BBE943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0435DB21CBC9B0400BBE943 /* TripBudiAdmin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0435DB31CBC9B0400BBE943 /* TripBudiAdmin.xcdatamodel */,
+			);
+			currentVersion = A0435DB31CBC9B0400BBE943 /* TripBudiAdmin.xcdatamodel */;
+			path = TripBudiAdmin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0435DA11CBC9B0400BBE943 /* Project object */;
+}
